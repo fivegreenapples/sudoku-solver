@@ -1,0 +1,24 @@
+:host {
+  border: 1px solid lightgray;
+}
+
+.cell {
+  height: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+
+  &.selected {
+    background-color: lightgreen;
+  }
+
+  .value {
+    font-size: 3em;
+  }
+
+  .candidates {
+  }
+}
